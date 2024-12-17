@@ -1,0 +1,25 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.button__accept {
+    width: 282px;
+    height: 56px;
+    background-color: var(--accept-button-background-color);
+    color: var(--accept-button-text-color);
+    border: none;
+    
+}
+
+.button__ticket {
+    width: 238px;
+    height: 56px;
+    border: 2px solid var(--ticket-button-border-color);
+    color: var(--ticket-button-text-color);
+}

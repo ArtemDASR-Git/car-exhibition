@@ -1,3 +1,10 @@
 :root {
+    /* text */
     --main-text-color: #1E1E25;
+
+    /* button */
+    --ticket-button-border-color: #6C79EC;
+    --ticket-button-text-color: #6C79EC;
+    --accept-button-background-color: #6C79EC;
+    --accept-button-text-color: #FFFFFF;
 }
