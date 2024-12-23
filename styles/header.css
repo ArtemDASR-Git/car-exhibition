@@ -1,6 +1,7 @@
 .header {
     padding: 38px 0 90px;
     background: url(../images/header-background.jpg) no-repeat center/cover;
+    height: 1130px;
     
 }
 
@@ -9,18 +10,17 @@
 }
 
 .header__block_top {
+    width: 100%;
+    top: 38px;
+    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.header__logo {
-    width: 159px;
-    height: 38px;
+    position: fixed;
 }
 
 .header__partners {
-    margin-top: 50px;
+    margin-top: 88px;
     width: 575px;
     display: flex;
     justify-content: space-between;

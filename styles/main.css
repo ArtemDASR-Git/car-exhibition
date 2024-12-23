@@ -6,11 +6,18 @@
 @import './menu.css';
 @import './header.css';
 @import './button.css';
+@import './logo.css';
+@import './museum.css';
+@import './cars.css';
 
 * {
     box-sizing: border-box;
     font-family: Unbounded;
     font-style: normal;
+}
+
+body {
+    position: relative;
 }
 
 .container {
@@ -23,6 +30,12 @@
     line-height: 86px;
 }
 
+.subtitle {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 50px;
+}
+
 .descriptor {
     font-weight: 500;
     font-size: 20px;
@@ -33,4 +46,8 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+}
+
+.link {
+    cursor: pointer;
 }

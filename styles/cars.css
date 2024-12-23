@@ -1,0 +1,27 @@
+.cars {
+    top: 1594px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-color: var(--main-cars-background-color);
+    border-radius: 50px; 
+}
+.cars__block {
+    display: flex;
+    justify-content: space-between;
+    padding: 290px;
+}
+
+.cars_text, .cars__button {
+    margin-top: 50px;
+}
+
+.cars__link {
+    padding: 30px 30px 75px 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 128px;
+    border-radius: 40px;
+    background-color: var(--link-cars-background-color);
+}

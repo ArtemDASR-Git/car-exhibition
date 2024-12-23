@@ -8,23 +8,23 @@
 </head>
 <body>
 
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
-            <div class="header__block header__block_top">
-                <div class="header__logo">
+            <div class="header__block header__block_top container">
+                <a href="#header" class="logo link">
                     <img 
                         class="img"
                         src="./images/logo.png" 
                         alt="logo"
                     >
-                </div>
+                </a>
     
                 <nav class="navbar">
                     <ul class="menu">
                         <li class="menu__item">
                             <a 
                                 href="#" 
-                                class="menu__link"
+                                class="menu__link link"
                             >
                                 Участники
                             </a>
@@ -32,7 +32,7 @@
                         <li class="menu__item">
                             <a 
                                 href="#" 
-                                class="menu__link"
+                                class="menu__link link"
                             >
                                 Расписание
                             </a>
@@ -40,7 +40,7 @@
                         <li class="menu__item">
                             <a 
                                 href="#" 
-                                class="menu__link"
+                                class="menu__link link"
                             >
                                 Активности
                             </a>
@@ -48,7 +48,7 @@
                         <li class="menu__item">
                             <a 
                                 href="#" 
-                                class="menu__link"
+                                class="menu__link link"
                             >
                                 Билеты
                             </a>
@@ -58,28 +58,28 @@
             </div>
 
             <div class="header__partners">
-                <a href="#" class="header__partners-item">
+                <a href="#" class="link">
                     <img 
                         class="header__img"
                         src="./images/brooklands.png" 
                         alt="brooklands"
                     >
                 </a>
-                <a href="#" class="header__partners-item">
+                <a href="#" class="link">
                     <img 
                         class="header__img"
                         src="./images/sogaz.png" 
                         alt="sogaz"
                     >
                 </a>
-                <a href="#" class="header__partners-item">
+                <a href="#" class="link">
                     <img 
                         class="header__img"
                         src="./images/auto.png" 
                         alt="auto"
                     >
                 </a>
-                <a href="#" class="header__partners-item">
+                <a href="#" class="link">
                     <img 
                         class="header__img"
                         src="./images/pure-dew.png" 
@@ -117,7 +117,71 @@
     </header>
 
     <main class="main">
-        main
+        <section class="museum container">
+            <div class="museum__block">
+                <h2 class="subtitle">
+                    Музей-заповедник 
+                    <br>
+                    Архангельское
+                </h2>
+            </div>
+            <div>
+                <span class="text">
+                    Усадьба Архангельское это роскошный дворцовопарковый ансамбль,
+                    <br>
+                    построенный в конце XVIII века. Он являлся резиденцией царской семьи 
+                    <br>
+                    Юсуповых и в наше время приобрел народное прозвище- “Подмосковный 
+                    <br>
+                    Версаль”. Заповедник состоит из множества аллей среди множества 
+                    <br>
+                    зданий и более 200 скульптур и фонтанов. Усадьба также имеет выход на 
+                    <br>
+                    набережную Москва-реки. Площадь заповедника составляет 800 га.
+                </span>
+            </div>
+        </section>
+
+        <section class="cars container">
+            <div class="cars__block">
+                <div class="cars__info">
+                    <div class="cars__participation">
+                        <h2 class="subtitle">
+                            Автомобили
+                        </h2>
+
+                        <span class="text cars_text">
+                            Редчайшие автомобили, произведенные за последние 20 лет, включая спорт, супер и гипер кары. Широкий спектр янгтаймеров, от легендарной японской JDM классики до угловатых итальянских суперкаров 80х и 90х годов. Разнообразные классические шедевры начиная с довоенных европейских авто, заканчивая американскими масл-карами 60х и 70х годов выпуска.
+                        </span>
+
+                        <button type="button" class="button__accept button cars_button">
+                            принять участие
+                        </button>
+                    </div>
+
+                    <div class="cars__participation_picture">
+                        <img src="./images/lamborghini.png" alt="lamborghini">
+                        <img src="./images/ferrari.png" alt="ferrari">
+                    </div>
+
+                    <div class="cars__link">
+                        <div class="cars__link_text">
+                            ещё фото
+                        </div>
+                        <a href="#" class="cars__link_arrow">
+                            <img src="./images/arrow.png" alt="arrow">
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="auto__photo">
+                    <img src="./images/camaro.png" alt="camaro">
+                    <img src="./images/ford.png" alt="ford">
+                    <img src="./images/dmc.png" alt="dmc">
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer class="footer">

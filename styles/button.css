@@ -14,7 +14,6 @@
     background-color: var(--accept-button-background-color);
     color: var(--accept-button-text-color);
     border: none;
-    
 }
 
 .button__accept:hover {

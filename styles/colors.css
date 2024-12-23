@@ -1,6 +1,7 @@
 :root {
     /* text */
     --main-text-color: #1E1E25;
+    --main-text-active-color: #6C79EC;
 
     /* button */
     --ticket-button-border-color: #6C79EC;
@@ -11,4 +12,9 @@
     --accept-button-background-color: #6C79EC;
     --accept-button-text-color: #FFFFFF;
     --accept-button-background-hover-color: #4653CE;
+
+    /* main */
+    --main-background-color: #F6F5F5;
+    --main-cars-background-color: #D0E4D9;
+    --link-cars-background-color: #8EAAAB;
 }
