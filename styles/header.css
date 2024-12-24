@@ -1,5 +1,8 @@
 .header {
-    padding: 38px 0 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 38px;
     background: url(../images/header-background.jpg) no-repeat center/cover;
     height: 1130px;
     
@@ -28,7 +31,7 @@
 }
 
 .header__data {
-    margin-top: 209px;
+    margin-top: 211px;
 }
 
 .header__title, .header__text {

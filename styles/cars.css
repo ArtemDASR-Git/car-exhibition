@@ -1,24 +1,20 @@
 .cars {
-    top: 1594px;
-    position: absolute;
     width: 100%;
-    z-index: 1;
     background-color: var(--main-cars-background-color);
-    border-radius: 50px; 
 }
 .cars__block {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 290px;
-    padding-top: 204px;
-}
-
-.cars__subtitle {
-    margin-top: 0;
+    padding: 240px 0 290px;
+    
 }
 
 .cars__participation {
     margin-bottom: 130px;
+}
+
+.cars__subtitle {
+    margin-bottom: 50px;
 }
 
 .cars__text, .cars__button {
