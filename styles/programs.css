@@ -1,0 +1,40 @@
+.programs {
+    width: 100%;
+    background-color: var(--programs-background-color);
+}
+
+.programs__block {
+    padding-top: 190px;
+}
+
+.contests__block {
+    margin-top: 160px;
+}
+
+.programs__info, .contests__info {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.programs__info_item {
+    border: 2px solid var(--programs-border-color);
+    border-radius: 40px;
+    width: 490px;
+    height: 491px;
+    padding: 68px;
+}
+
+.prizes__info_item {
+    background-color: var(--prizes-background-color);
+    width: 750px;
+    height: 850px;
+    border-radius: 40px;
+}
+
+.contests__info_item {
+    background-color: var(--contests-background-color);
+    width: 750px;
+    height: 850px;
+    border-radius: 40px;
+}

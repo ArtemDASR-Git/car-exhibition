@@ -9,3 +9,7 @@
 .divider_museum {
     background-color: var(--main-cars-background-color);
 }
+
+.divider_programs {
+    background-color: var(--programs-background-color);
+}

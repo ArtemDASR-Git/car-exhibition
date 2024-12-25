@@ -19,5 +19,8 @@
     --link-cars-background-color: #8EAAAB;
     --link-cars-active-background-color: #1E1E25;
     --link-text-color: #FFFFFF;
-    --programs-background-color: #C1C1C1;
+    --programs-background-color: #F6F9F1;
+    --programs-border-color: #C1C1C1;
+    --prizes-background-color: #D2E3ED;
+    --contests-background-color: #353535;
 }
