@@ -38,3 +38,19 @@
     height: 850px;
     border-radius: 40px;
 }
+
+.prizes__item_gift {
+    margin: 120px 100px 0 100px;
+}
+
+.prizes__img_gift {
+    margin: 140px 0 0 284px;
+}
+
+.prizes__img_cup {
+    margin: 45px 0 0 296px;
+}
+
+.contests__info_item> .prizes__item_gift {
+    color: var(--main-secondary-text-color);
+}
