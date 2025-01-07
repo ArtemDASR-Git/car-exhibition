@@ -4,6 +4,9 @@
     --main-text-active-color: #6C79EC;
     --main-secondary-text-color: #FFFFFF;
 
+    /* divider */
+    --divider-background-color: #FFFFFF;
+
     /* button */
     --ticket-button-border-color: #6C79EC;
     --ticket-button-text-color: #6C79EC;
@@ -25,3 +28,4 @@
     --prizes-background-color: #D2E3ED;
     --contests-background-color: #353535;
 }
+

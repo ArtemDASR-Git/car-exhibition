@@ -1,4 +1,5 @@
 .museum {
+    position: relative;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -14,5 +15,10 @@
 }
 
 .museum__block:first-child {
+    max-width: 620px;
     margin-right: 160px;
+}
+
+.museum__block {
+    width: 100%;
 }

@@ -1,15 +1,25 @@
 .divider { 
+    position: absolute;
+    top: -50px;
     margin-top: 6px;
     width: 100%;
     height: 50px;
     border-radius: 50px 50px 0 0;
-    background-color: var(--main-background-color);
+    background-color: var(--divider-background-color);
 }
 
 .divider_museum {
+    background-color: var(--main-background-color);
+}
+
+.divider_cars {
     background-color: var(--main-cars-background-color);
 }
 
 .divider_programs {
     background-color: var(--programs-background-color);
+}
+
+.divider_tickets {
+    height: 146px;
 }
