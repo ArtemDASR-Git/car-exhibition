@@ -6,6 +6,7 @@
 
     /* divider */
     --divider-background-color: #FFFFFF;
+    --divider-background-color-ellipse : #E8E8E8;
 
     /* button */
     --ticket-button-border-color: #6C79EC;
@@ -28,4 +29,3 @@
     --prizes-background-color: #D2E3ED;
     --contests-background-color: #353535;
 }
-

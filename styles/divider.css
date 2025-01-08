@@ -21,5 +21,30 @@
 }
 
 .divider_tickets {
+    overflow: hidden;
     height: 146px;
+    padding: 30px 0;
+}
+
+.divider__content {
+    position: absolute;
+    left: -60px;
+    display: flex;
+    align-items: center;
+}
+
+.divider__item {
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 86px;
+}
+
+.divider__item_ellipse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: var(--divider-background-color-ellipse);
 }

@@ -1,3 +1,18 @@
 .price {
+    padding: 120px 0 115px 0;
     position: relative;
+    background-color: var(--prizes-background-color);
+}
+
+.price__information {
+    height: 1415px;
+}
+
+.price__tickets {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price__tickets-item {
+    background-color: var(--main-secondary-text-color);
 }
