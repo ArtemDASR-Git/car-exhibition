@@ -13,3 +13,11 @@
     src: url(../fonts/Unbounded-Regular.woff2) format(woff2);
     src: url(../fonts/Unbounded-Regular.ttf) format(truetype);
 }
+
+@font-face {
+    font-family: Unbounded;
+    font-size: normal;
+    font-weight: 300;
+    src: url(../fonts/Unbounded-Light.woff2) format(woff2);
+    src: url(../fonts/Unbounded-Light.ttf) format(truetype);
+}

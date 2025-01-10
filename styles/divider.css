@@ -22,6 +22,7 @@
 
 .divider_tickets {
     overflow: hidden;
+    top: -146px;
     height: 146px;
     padding: 30px 0;
 }
