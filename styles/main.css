@@ -13,6 +13,7 @@
 @import './divider.css';
 @import './programs.css';
 @import './price.css';
+@import './footer.css';
 
 * {
     box-sizing: border-box;

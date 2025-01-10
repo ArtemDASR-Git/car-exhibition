@@ -9,6 +9,7 @@
 }
 
 .header__block {
+    z-index: 1000;
     height: 38px;
 }
 

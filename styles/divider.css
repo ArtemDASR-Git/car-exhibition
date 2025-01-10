@@ -49,3 +49,10 @@
     border-radius: 50%;
     background-color: var(--divider-background-color-ellipse);
 }
+
+.divider__price_bottom{
+    width: 100%;
+    height: 50px;
+    background-color: var(--prizes-background-color);
+    border-radius: 0 0 50px 50px;
+}

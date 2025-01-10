@@ -37,12 +37,18 @@
 }
 
 .text__small {
-    font-size: 300;
+    font-weight: 300;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 18.2px;
+}
+
+.text__price {
+    font-weight: 700;
+    font-size: 25px;
 }
 
 .link {
     cursor: pointer;
     text-decoration: none;
 }
+

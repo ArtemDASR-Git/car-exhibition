@@ -6,6 +6,7 @@
     cursor: pointer;
     font-weight: 500;
     font-size: 14px;
+    letter-spacing: 0.2em;
 }
 
 .button__accept {
@@ -25,6 +26,13 @@
     height: 56px;
     border: 2px solid var(--ticket-button-border-color);
     color: var(--ticket-button-text-color);
+}
+
+.button__ticket_price {
+    border: none;
+    width: 300px;
+    height: 56px;
+    background-color: var(--ticket-button-background-price);
 }
 
 .button__ticket:hover {
