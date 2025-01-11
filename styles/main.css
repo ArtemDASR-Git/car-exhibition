@@ -3,9 +3,17 @@
 @import './colors.css';
 
 /* block */
+@import './common.css';
 @import './menu.css';
 @import './header.css';
 @import './button.css';
+@import './logo.css';
+@import './museum.css';
+@import './cars.css';
+@import './divider.css';
+@import './programs.css';
+@import './price.css';
+@import './footer.css';
 
 * {
     box-sizing: border-box;
@@ -13,24 +21,6 @@
     font-style: normal;
 }
 
-.container {
-    padding: 0 195px;
-}
-
-.title {
-    font-weight: 500;
-    font-size: 86px;
-    line-height: 86px;
-}
-
-.descriptor {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-}
-
-.text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+body {
+    position: relative;
 }

@@ -1,0 +1,128 @@
+.price {
+    padding: 120px 0 0 0;
+    height: 1219px;
+    position: relative;
+    background-color: var(--prizes-background-color);
+}
+
+.price__tickets {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price__tickets-item {
+    background-color: var(--main-secondary-text-color);
+    width: 360px;
+    height: 433px;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.price__divider {
+    margin-top: 29px;
+    width: 100%;
+    height: 1px;
+    background-color: var(--divider-background-color-line);
+}
+
+.price__ticket-item-info {
+    margin-top: 29px;
+    display: flex;
+}
+
+.price__ticket-slash {
+    min-width: 17px;
+}
+
+
+.price__tickets-safety {
+    width: 378px;
+    height: 285px;
+}
+
+.price__tickets-safety-text {
+    height: 162px;
+}
+
+.headline__safety {
+    margin: 20px 0 20px 0;
+}
+
+.price_tickets-item-bottom {
+    margin-top: 98px;
+}
+
+.text-safety {
+    margin: 0;
+    list-style-position: inside;
+    padding: 0;
+}
+
+.price_tickets-item-vip {
+    margin-top: 138px;
+}
+
+.button__ticket_price {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.price__tickets-shield {
+    display: block;
+}
+
+.price__information {
+    margin-top: 100px;
+}
+
+.price__information-table {
+    margin-top: 50px;
+}
+
+.price__table-row {
+    width: 1530px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 84px;
+    border-bottom: 1px solid var(--border-color-table);
+}
+
+.price__table-row_header {
+    height: 54px;
+    align-items: start;
+    border-bottom: 2px solid var(--border-color-table-header);
+    color: var(--main-table-header-text-color);
+}
+
+.price__table-cell {
+    width: 390px;
+}
+
+.price__bottom {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom__outline {
+    display: flex;
+    align-items: center;
+}
+
+.bottom__outline_text {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    margin-left: 10px;
+    color: var(--main-price-bottom-text-color);
+}
+
+.button__benefits {
+    width: 151px;
+    height: 50px;
+    
+}
+
+

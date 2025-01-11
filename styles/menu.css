@@ -12,4 +12,9 @@
     font-weight: 400;
     font-size: 14px;
     color: var(--main-text-color);
+    transition: .5s color;
+}
+
+.menu__link:hover {
+    color: var(--main-text-active-color);
 }

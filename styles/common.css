@@ -1,0 +1,64 @@
+.container {
+    width: 100%;
+    padding: 0 195px;
+}
+
+.title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 86px;
+    line-height: 86px;
+}
+
+.subtitle {
+    margin: 0;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.headline {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.descriptor {
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.text__footer-menu {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text__small {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18.2px;
+}
+
+.text__place {
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.text__price {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.link {
+    cursor: pointer;
+    text-decoration: none;
+}
+

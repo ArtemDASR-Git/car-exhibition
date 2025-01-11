@@ -1,0 +1,98 @@
+.footer {
+    width: 100%;
+    height: 1000px;
+    background-color: var(--footer-background-color);
+}
+
+.location__heading {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.divider_maps-logo {
+    margin-left: 0;
+}
+
+.subtitle__maps-logo {
+    margin-left: 40px;
+}
+
+.location__map {
+    width: 620px;
+}
+
+.location__map-info {
+    display: flex;
+    margin-top: 60px;
+}
+
+.location__info {
+    width: 720px;
+    margin-left: 160px;
+}
+
+.link__map {
+    display: block;
+    margin-left: 500px;
+    margin-top: 30px;
+    color: var(--main-text-color);
+}
+
+.headline__info-access {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.location__info-place {
+    margin-top: 124px;
+}
+
+.location__place-item {
+    margin-top: 70px;
+    display: grid;
+}
+
+.location__place-item:first-child {
+    margin-top: 0px;
+}
+
+.text__place {
+    margin-bottom: 10px;
+}
+
+.map {
+    margin-top: 180px;
+}
+
+.footer__info {
+    margin-top: 180px;
+    padding: 80px 100px;
+    width: 100%;
+    height: 619px;
+    border-radius: 50px;
+    background-color: var(--prizes-background-color);
+}
+
+.footer__info-item {
+    display: flex;
+}
+
+.contack__item {
+    margin-top: 15px;
+}
+
+.link__contack {
+    color: var(--main-text-color);
+}
+
+.button__contack {
+    margin-left: 319px;
+}
+
+.footer__menu {
+    margin-top: 267px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

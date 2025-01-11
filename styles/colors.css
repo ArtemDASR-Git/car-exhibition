@@ -1,14 +1,42 @@
 :root {
     /* text */
     --main-text-color: #1E1E25;
+    --main-text-active-color: #6C79EC;
+    --main-secondary-text-color: #FFFFFF;
+    --main-table-header-text-color : #9090A6;
+    --main-price-bottom-text-color : #6C79EC ;
+
+    /* divider */
+    --divider-background-color: #FFFFFF;
+    --divider-background-color-ellipse : #E8E8E8;
+    --divider-background-color-line : #1E1E25 ;
 
     /* button */
     --ticket-button-border-color: #6C79EC;
     --ticket-button-text-color: #6C79EC;
     --ticket-button-background-hover-color: #6C79EC;
     --ticket-button-text-hover-color: #FFFFFF;
+    --ticket-button-background-price: #D0E4D9 ; 
     
     --accept-button-background-color: #6C79EC;
     --accept-button-text-color: #FFFFFF;
     --accept-button-background-hover-color: #4653CE;
+
+    /* main */
+    --main-background-color: #F6F5F5;
+    --main-cars-background-color: #D0E4D9;
+    --link-cars-background-color: #8EAAAB;
+    --link-cars-active-background-color: #1E1E25;
+    --link-text-color: #FFFFFF;
+    --programs-background-color: #F6F9F1;
+    --programs-border-color: #C1C1C1;
+    --prizes-background-color: #D2E3ED;
+    --contests-background-color: #353535;
+
+    /* table */
+    --border-color-table-header : #9090A6;
+    --border-color-table : #D1D1DE ;
+
+    /* footer */
+    --footer-background-color : #FFFFFF;
 }

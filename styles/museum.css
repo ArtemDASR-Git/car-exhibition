@@ -1,0 +1,24 @@
+.museum {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: var(--main-background-color);
+}
+
+.museum__wrapper {
+    display: flex;
+    width: 100%;
+    padding: 150px 0 172px;
+}
+
+.museum__block:first-child {
+    max-width: 620px;
+    margin-right: 160px;
+}
+
+.museum__block {
+    width: 100%;
+}
