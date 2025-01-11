@@ -30,6 +30,11 @@
     line-height: 24px;
 }
 
+.text__footer-menu {
+    font-weight: 500;
+    font-size: 14px;
+}
+
 .text {
     font-weight: 400;
     font-size: 16px;
@@ -40,6 +45,11 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 18.2px;
+}
+
+.text__place {
+    font-weight: 300;
+    font-size: 50px;
 }
 
 .text__price {
