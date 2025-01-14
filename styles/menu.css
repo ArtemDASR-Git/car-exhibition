@@ -18,3 +18,18 @@
 .menu__link:hover {
     color: var(--main-text-active-color);
 }
+
+@media (max-width: 1024px) {
+    
+    .menu {
+        width: 517px;
+    }
+}
+
+@media (max-width: 320px) {
+    
+    .menu {
+        display: none;
+    }
+
+} 

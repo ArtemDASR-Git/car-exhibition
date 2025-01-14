@@ -39,3 +39,12 @@
     background-color: var(--ticket-button-background-hover-color);
     color: var(--ticket-button-text-hover-color);
 }
+
+@media (max-width: 320px) {
+
+    .button__ticket {
+        width: 282px;
+        margin-top: 10px;
+    }
+
+}
