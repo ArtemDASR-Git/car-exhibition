@@ -43,7 +43,7 @@
 }
 
 .header__button-wrapper {
-    margin-top: 30px;
+    margin-top: 40px;
     display: flex;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .header__arrow {
-    margin: 162px auto 0;
+    margin: 232px auto 0;
     width: 28px;
     height: 7px;
     position: relative;
@@ -103,12 +103,17 @@
     }
 
     .header__title,
-    .header__text {
+    .header__text,
+    .header__button-wrapper {
         margin-top: 30px;
     }
 
     .header__text {
         width: 930px;
+    }
+
+    .header__arrow {
+        margin-top: 162px;
     }
     
 }
@@ -117,8 +122,12 @@
 @media (max-width: 320px) {
     
     .header {
-        padding-top: 15px;
+        padding-top: 0;
         padding-bottom: 25px;
+    }
+
+    .header__block_top {
+        padding-top: 15px;
     }
 
     .header__partners {
@@ -150,5 +159,6 @@
     .header__arrow {
         display: none;
     }
+  
     
 }    

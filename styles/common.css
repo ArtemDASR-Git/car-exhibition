@@ -92,12 +92,19 @@
 
     .descriptor {
         font-size: 16px;
-        line-height: 24px;
+        line-height: 20.8px;
     }
 
     .title {
         font-size: 28px;
         line-height: 28px;
+    }
+
+    .subtitle {
+        margin: 0;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25.2px;
     }
 
     .text {
