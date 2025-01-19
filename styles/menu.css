@@ -19,6 +19,11 @@
     color: var(--main-text-active-color);
 }
 
+.menu_burger {
+    display: none;
+}
+
+
 @media (max-width: 1024px) {
     
     .menu {
@@ -26,10 +31,46 @@
     }
 }
 
+
 @media (max-width: 320px) {
     
     .menu {
         display: none;
     }
 
-} 
+    .menu__burger {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 23px;
+        height: 18px;
+        cursor: pointer;
+    }
+
+    .menu__burger span {
+        width: 100%;
+        height: 2px;
+        background-color: var(--main-text-color);
+        transition: .5s transform;
+    }
+
+    .menu__burger:active span:first-child {
+        display: block;
+        transform: translateY(-50%) rotate(45deg);
+        position: absolute;
+        top: 50%;
+    }
+
+    .menu__burger:active span:nth-child(2) {
+        display: none;
+    }
+
+    .menu__burger:active span:last-child {
+        display: block;
+        transform: translateY(-50%) rotate(-45deg) ;
+        position: absolute;
+        top: 50%;
+    }
+
+}  
