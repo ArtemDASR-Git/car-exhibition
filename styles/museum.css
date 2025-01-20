@@ -22,3 +22,42 @@
 .museum__block {
     width: 100%;
 }
+
+@media (max-width: 1024px) {
+
+    .museum__wrapper {
+        padding: 30px 0 120px;
+    }
+
+    .museum__block {
+        width: 450px;
+    }
+
+    .museum__block:first-child { 
+        margin-right: 30px;
+    }
+}
+
+
+@media (max-width: 320px) {
+
+    .museum__wrapper {
+        padding: 0;
+    }
+
+    .museum__wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        
+    }
+
+    .museum__block {
+        width: inherit;
+    }
+
+    .museum__block:first-child { 
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+}

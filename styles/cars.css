@@ -6,8 +6,7 @@
 .cars__block {
     display: flex;
     justify-content: space-between;
-    padding: 240px 0 290px;
-    
+    padding: 240px 0 290px; 
 }
 
 .cars__item:first-child {
@@ -55,4 +54,38 @@
 
 .cars__link_text {
     color: var(--link-text-color);
+}
+
+@media (max-width: 1024px) {
+    .cars__block {
+        padding: 60px 0 140px; 
+    }
+
+    .cars__item:first-child {
+        margin-right: 80px;
+    }
+
+    .cars__button {
+        margin-top: 30px;
+    }
+
+    .cars__subtitle {
+        margin-bottom: 30px;
+    }
+
+    .cars__participation {
+        margin-bottom: 80px;
+    }
+
+    .auto__photo_cars:not(:first-child) {
+        margin-top: 80px;
+    }
+
+    .cars__participation_link {
+        margin-top: 80px;
+        max-width: 400px;
+        height: 128px;
+       
+    }
+
 }

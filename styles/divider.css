@@ -56,3 +56,16 @@
     background-color: var(--prizes-background-color);
     border-radius: 0 0 50px 50px;
 }
+
+
+
+@media (max-width: 1024px) {
+
+    .divider { 
+        top: -40px;
+        height: 40px;
+    }
+
+
+
+}

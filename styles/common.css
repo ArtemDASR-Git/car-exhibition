@@ -78,6 +78,13 @@
         line-height: 50px;
     }
 
+    .subtitle {
+        margin: 0;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
     .text {
         font-size: 15px;
         line-height: 22.5px;

@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding-top: 38px;
-    padding-bottom: 60px;
+    padding-bottom: 110px;
     background: url(../images/header-background.jpg) no-repeat center/cover;
 }
 
@@ -86,7 +86,7 @@
 @media (max-width: 1024px) {
 
     .header {
-        padding-bottom: 50px;
+        padding-bottom: 100px;
         padding-top: 30px;
     }
 
@@ -160,5 +160,10 @@
         display: none;
     }
   
-    
+    .header__button-wrapper {
+        margin-bottom: 50px;
+    }
+
+
+
 }    
