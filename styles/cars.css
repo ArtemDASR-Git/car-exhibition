@@ -89,3 +89,15 @@
     }
 
 }
+
+
+@media (max-width: 320px) {
+    .cars__block {
+        flex-direction: column;
+        padding: 0;
+
+    }
+
+
+
+}

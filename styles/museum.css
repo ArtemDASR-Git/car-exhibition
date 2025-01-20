@@ -42,13 +42,9 @@
 @media (max-width: 320px) {
 
     .museum__wrapper {
-        padding: 0;
-    }
-
-    .museum__wrapper {
         display: flex;
         flex-direction: column;
-        padding: 0;
+        padding: 0 0 78px 0;
         
     }
 
