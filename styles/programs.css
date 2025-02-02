@@ -56,3 +56,110 @@
 .contests__info_item> .prizes__item_gift {
     color: var(--main-secondary-text-color);
 }
+
+
+@media (max-width: 1024px) {
+
+    .programs__item {
+        padding: 60px 0;
+    }
+
+    .programs__info {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .programs__info_item {
+        max-width: 930px;
+        height: 235px;
+        padding: 50px;
+    }
+
+    .programs__info_item:not(:first-child) {
+        margin-top: 30px;
+    }
+
+    .headline {
+        margin: 10px 0;
+    }
+
+    .contests__block {
+        margin-top: 100px;
+    }
+
+    .contests__info {
+        margin-top: 50px;
+    }
+
+    .prizes__info_item, .contests__info_item {
+        max-width: 450px;
+        height: 657px;
+    }
+
+    .prizes__item_gift {
+        margin: 50px 50px 0 50px;
+    }
+
+    .prizes__img_gift {
+        margin: 138px 0 0 153px;
+        width: 292px;
+    }
+
+    .prizes__img_cup {
+        margin: 22px 0 0 138px;
+        width: 312px;
+        height: 249px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .programs__item {
+        padding: 10px 0;
+    }
+
+    .programs__info {
+        margin-top: 30px;
+    }
+
+    .programs__info_item {
+        max-width: 284px;
+        height: 318px;
+        padding: 20px;
+    }
+
+    .programs__info_item:not(:first-child) {
+        margin-top: 20px;
+    }
+
+    .contests__block {
+        margin-top: 67px;
+    }
+
+    .contests__info {
+        margin-top: 45px;
+        flex-direction: column;
+    }
+
+    .prizes__item_gift {
+        margin: 20px 20px 0 20px;
+    }
+
+    .prizes__img_gift {
+        margin: 26px 0 0 58px;
+        width: 208px;
+    }
+
+    .prizes__info_item {
+        height: 460px;
+        margin-bottom: 30px;
+    }
+
+    .prizes__img_cup {
+        margin: 20px 0 0 74px;
+        width: 210px;
+        height: 205px;
+    }
+
+
+}

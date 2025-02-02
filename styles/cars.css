@@ -94,10 +94,54 @@
 @media (max-width: 320px) {
     .cars__block {
         flex-direction: column;
-        padding: 0;
-
+        padding-top: 10px;
     }
 
+    .cars__subtitle {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
 
+    .cars__item:first-child {
+        margin: 0;
+    }
+
+    .cars__participation {
+        margin-bottom: 50px;
+    }
+
+    .cars__participation_picture, .cars__participation_link {
+        width: 132px;
+    }
+
+    .auto__photo_cars:not(:first-child) {
+        margin-top: 20px;
+    }
+
+    .cars__participation_link {
+        margin-top: 20px;
+        width: 132px;
+        height: 104px;
+        border-radius: 20px;
+        padding: 14px 14px 74px 14px;
+    }
+
+    .cars__link_text {
+        font-size: 12px;
+        line-height: 15.6px;
+    }
+
+    .cars__link_arrow-img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .auto__photo {
+        position: relative;
+        width: 132px;
+        margin-left: 152px;
+        margin-top: -415px;
+
+    }
 
 }

@@ -85,6 +85,12 @@
         line-height: 40px;
     }
 
+    .headline {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 33px;
+    }
+
     .text {
         font-size: 15px;
         line-height: 22.5px;
@@ -109,6 +115,12 @@
 
     .subtitle {
         margin: 0;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+
+    .headline {
         font-weight: 500;
         font-size: 18px;
         line-height: 25.2px;
