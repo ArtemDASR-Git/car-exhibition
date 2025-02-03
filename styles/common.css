@@ -95,6 +95,13 @@
         font-size: 15px;
         line-height: 22.5px;
     }
+
+    .text__small, .text-safety  {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22.4px;
+    }
+    
 }
 
 @media (max-width: 320px) {

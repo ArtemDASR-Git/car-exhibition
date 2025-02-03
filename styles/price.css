@@ -126,3 +126,97 @@
 }
 
 
+@media (max-width: 1024px) {
+
+    .price {
+        padding: 0;
+        height: 1195px;
+        
+    }
+
+    .container__price {
+        padding-top: 135px;
+
+    }
+
+    .price__tickets-item {
+        width: 290px;
+        height: 372px;
+        padding: 26px;
+    }
+
+    .price__tickets-item:not(:first-child) {
+        margin-left: 30px;
+
+    }
+
+    .price_tickets-item-bottom {
+        margin-top: 28px;
+    }
+
+    .price_tickets-item-vip {
+        margin-top: 72px;
+    }
+
+    .price__tickets-safety {
+        position: absolute;
+        margin-top: 432px;
+
+    }
+
+    .button__ticket_price {
+        font-size: 12px;
+        width: 238px;
+    }
+
+    .price__divider, .price__ticket-item-info {
+        margin-top: 20px;
+    }
+
+    .price__information {
+        margin-top: 254px;
+    }
+
+    .price__tickets-shield {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+    }
+
+    .headline__safety {
+        position:absolute;
+        margin: 0 0 0 52px;
+    }
+
+    .price__tickets-safety-text {
+        margin-top: 46px;
+        height: 162px;
+        width: 590px;
+    }
+
+    .text-safety {
+        margin: 0;
+        list-style-position: inside;
+        padding: 0;
+    }
+
+    .price__table-row_header {
+        height: 24px;
+        padding-bottom: 40px;
+        
+    }
+
+    .price__table-row {
+        width: 930px;
+        height: 44px;
+    }
+
+    .price__bottom {
+        margin-top: 20px;
+    }
+
+
+
+}
+
+

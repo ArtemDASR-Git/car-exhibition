@@ -84,7 +84,8 @@
     }
 
     .contests__block {
-        margin-top: 100px;
+        margin: 100px 0;
+
     }
 
     .contests__info {
@@ -113,7 +114,7 @@
 
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 320px) {
     .programs__item {
         padding: 10px 0;
     }

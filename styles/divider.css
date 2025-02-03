@@ -66,6 +66,28 @@
         height: 40px;
     }
 
+    .divider_tickets {
+        overflow: hidden;
+        height: 100px;
+        padding: 25px 0;
+    }
+
+    .divider__item_ellipse {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    .divider__item {
+        margin-left: 20px;
+        font-weight: 500;
+        font-size: 50px;
+    }
+
+    .divider__content {
+        left: -33px;
+    }
+
 
 
 }
